@@ -1,0 +1,1 @@
+# receptor-binding-assay
