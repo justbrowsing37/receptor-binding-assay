@@ -1,51 +1,86 @@
+/* styles.css */
+
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
-  background-color: #121212;
-  color: #e0e0ff;
-  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0e0b16;
+  color: #e0d4f7;
 }
 
-.sidebar {
-  width: 220px;
-  background: #2c003e;
-  height: 100vh;
-  padding: 20px;
-  box-sizing: border-box;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-.sidebar h2 {
-  color: #fff;
-}
-
-.sidebar a {
-  color: #b39ddb;
-  text-decoration: none;
-  display: block;
-  margin: 10px 0;
-}
-
-.sidebar a:hover {
-  text-decoration: underline;
-}
-
-.content {
-  margin-left: 240px;
-  padding: 20px;
-  flex-grow: 1;
+header {
+  background-color: #1a0925;
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 2px solid #824cbb;
 }
 
 header h1 {
+  margin: 0;
+  color: #c798f7;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #d1b3ff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+main {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
   color: #bb86fc;
+  border-bottom: 1px solid #824cbb;
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  border: 2px solid #824cbb;
+  border-radius: 8px;
+}
+
+iframe {
+  border: none;
+  margin-top: 1rem;
+  max-width: 100%;
+  border: 2px solid #824cbb;
+  border-radius: 8px;
 }
 
 footer {
-  margin-top: 40px;
-  font-size: 0.9em;
-  color: #aaa;
+  text-align: center;
+  padding: 1rem;
+  background-color: #1a0925;
+  color: #aa8ddd;
+  border-top: 2px solid #824cbb;
 }
-
-/*Basic styles are implemented, but i will need to add more
